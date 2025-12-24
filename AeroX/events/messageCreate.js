@@ -24,7 +24,7 @@ module.exports = {
     
     container.addTextDisplayComponents(
       new TextDisplayBuilder().setContent(
-        `# <:aerox:1430794772091768882> Hey there!\n\n<:dots:1430796944258895913> I'm **${client.user.username}** - Your music companion\n<:dots:1430796944258895913> Use \`/help\` to explore all my commands\n<:dots:1430796944258895913> Need support? Join our [server](https://discord.gg/8wfT8SfB5Z)`
+        `# <:aerox:1430794772091768882> Hey there!\n\n<:dots:1430796944258895913> I'm **${client.user.username}** - Your music companion\n<:dots:1430796944258895913> Use \`/help\` to explore all my commands\n<:dots:1430796944258895913> Need support? Join our [server](https://discord.gg/dkvwuBUs9f)`
       )
     );
     
@@ -33,7 +33,7 @@ module.exports = {
     container.addMediaGalleryComponents(
       new MediaGalleryBuilder().addItems(
         new MediaGalleryItemBuilder().setURL(
-          "https://cdn.discordapp.com/attachments/1414256332592254986/1430798331524808724/standard_2.gif"
+          "https://media.discordapp.net/attachments/1452467834884980799/1453332291165224981/giphy.gif?ex=694d10ab&is=694bbf2b&hm=0c2ee767c2bb909bc2d6d8a9682cf82658df2d48124f6a1a0de275b932d47492&="
         )
       )
     );
