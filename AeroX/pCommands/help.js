@@ -129,7 +129,7 @@ function createHelpContainer(categoryKey = null) {
 
     container
         .addMediaGalleryComponents(
-            new MediaGalleryBuilder().addItems([new MediaGalleryItemBuilder().setURL('https://cdn.discordapp.com/attachments/1414256332592254986/1430798331524808724/standard_2.gif')])
+            new MediaGalleryBuilder().addItems([new MediaGalleryItemBuilder().setURL('https://canary.discord.com/channels/1452467833970757826/1452563324255604768/1453332367409418331')])
         )
         .addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small).setDivider(true));
 
