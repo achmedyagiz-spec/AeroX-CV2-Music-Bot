@@ -85,7 +85,7 @@ function createHelpContainer(categoryKey = null) {
     if (!categoryKey) {
         container
             .addTextDisplayComponents(
-                new TextDisplayBuilder().setContent(`# <:aerox:1430794772091768882> AeroX Music Help`)
+                new TextDisplayBuilder().setContent(`# <:aerox:1430794772091768882> Punisherizm Music Bot`)
             )
             .addTextDisplayComponents(
                 new TextDisplayBuilder().setContent('Select a category from the menu below to view available commands.')
@@ -120,7 +120,7 @@ function createHelpContainer(categoryKey = null) {
 
     container
         .addMediaGalleryComponents(
-            new MediaGalleryBuilder().addItems([new MediaGalleryItemBuilder().setURL('https://cdn.discordapp.com/attachments/1414256332592254986/1430798331524808724/standard_2.gif')])
+            new MediaGalleryBuilder().addItems([new MediaGalleryItemBuilder().setURL('https://canary.discord.com/channels/1452467833970757826/1452563324255604768/1453332367409418331')])
         )
         .addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small).setDivider(true));
 
