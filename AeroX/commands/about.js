@@ -15,7 +15,7 @@ const {
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("about")
-    .setDescription("Shows information about AeroX Music"),
+    .setDescription("Shows information about Punisherizm Music"),
   
   async execute(interaction) {
     const client = interaction.client;
@@ -23,7 +23,7 @@ module.exports = {
 
     container.addTextDisplayComponents(
       new TextDisplayBuilder().setContent(
-        `# <:aerox:1430794772091768882> About AeroX Music`
+        `# <:aerox:1430794772091768882> About Punisherizm Music`
       )
     );
 
@@ -33,7 +33,7 @@ module.exports = {
 
     container.addTextDisplayComponents(
       new TextDisplayBuilder().setContent(
-        `<:white_musicnote:1430654046657843266> **AeroX Music** - A powerful Discord music bot designed to bring high-quality music streaming to your server. Enjoy seamless playback, custom playlists, and a rich set of features to enhance your listening experience.`
+        `<:white_musicnote:1430654046657843266> **Punisherizm Music** - A powerful Discord music bot designed to bring high-quality music streaming to your server. Enjoy seamless playback, custom playlists, and a rich set of features to enhance your listening experience.`
       )
     );
 
@@ -73,7 +73,7 @@ module.exports = {
 
     container.addTextDisplayComponents(
       new TextDisplayBuilder().setContent(
-        `*Developed with ❤️ by AeroX Development*`
+        `*Developed with ❤️ by Punisherizm Development*`
       )
     );
 
@@ -89,8 +89,8 @@ module.exports = {
           .setStyle(ButtonStyle.Link),
 
         new ButtonBuilder()
-          .setURL(`https://discord.gg/aerox`)
-          .setLabel(`AeroX Development`)
+          .setURL(`https://discord.gg/dkvwuBUs9f`)
+          .setLabel(`Punisherizm Development`)
           .setStyle(ButtonStyle.Link)
       )
     );
