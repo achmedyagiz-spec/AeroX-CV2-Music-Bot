@@ -120,7 +120,7 @@ function createHelpContainer(categoryKey = null) {
 
     container
         .addMediaGalleryComponents(
-            new MediaGalleryBuilder().addItems([new MediaGalleryItemBuilder().setURL('https://canary.discord.com/channels/1452467833970757826/1452563324255604768/1453332367409418331')])
+            new MediaGalleryBuilder().addItems([new MediaGalleryItemBuilder().setURL('https://cdn.discordapp.com/attachments/1452563324255604768/1453385550726828042/ChatGPT-Image-24-Ara-2025-14_28_41.gif?ex=694d4245&is=694bf0c5&hm=b32a98bdc04acf581fe171585f76a3c1bbc95abf0befff545a86a7bfc9683cdd&')])
         )
         .addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small).setDivider(true));
 
