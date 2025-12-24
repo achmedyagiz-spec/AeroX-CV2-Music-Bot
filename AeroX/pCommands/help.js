@@ -94,7 +94,7 @@ function createHelpContainer(categoryKey = null) {
     if (!categoryKey) {
         container
             .addTextDisplayComponents(
-                new TextDisplayBuilder().setContent(`# <:aerox:1430794772091768882> AeroX Music Help`)
+                new TextDisplayBuilder().setContent(`# <:aerox:1430794772091768882> Punisherizm Music Help`)
             )
             .addTextDisplayComponents(
                 new TextDisplayBuilder().setContent('Select a category from the menu below to view available commands.')
