@@ -412,7 +412,7 @@ client.login(config.BOT_TOKEN).catch((error) => {
 // Sunucu oluşturma ve proje aktivitesi sağlama.
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 10000;
 
 // Web sunucu
 app.get('/', (req, res) => {
